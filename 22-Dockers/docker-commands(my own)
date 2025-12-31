@@ -1,0 +1,12 @@
+pull the docker image
+docker image// to sell all the docker images pulled
+run the docker image=>docker conatiner  docker run -d -r 80(localhostport):80(docker container port) image name    (see from docker hub)
+docker ps //to see if the docker conatiner running or not
+docker stop dockerconatinerid //to stop running docker container
+docker image rm d79336f4812b(image id)//to remove docker image
+docker image rm -f d79336f4812b(image id)//to remove docker image forcefully
+
+docker build -t welcome-app .//to create docker image named=>welcome-app
+docker login
+docker tag oldiamgename newname//to rename dockerimage
+docker push krishna06/welcome_app:latest //pushing to docker hub
