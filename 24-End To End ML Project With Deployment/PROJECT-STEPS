@@ -21,5 +21,21 @@ This ensures all installed packages are contained within the project, making it 
 
 6-)Add a .gitignore file to exclude files and folders from being committed to the repository.
 
+7-)Create requirements.txt for listing all dependencies  //lists all libraries needed for the project.
 
-    
+8-)Create setup.py for packaging the application //contains metadata and instructions for building the package
+
+9-)To structure(create or ml application) the project as a package, create a src folder and add an __init__.py file inside it. 
+    //__init__.py it treats a directory as a Python package that can be imported elsewhere. Without this file, Python might treat a folder as just a regular directory
+    // allows Python to recognize the folder as a package.
+
+10-)Install all dependencies and build the package
+        -----pip install -r requirements.txt-----
+
+11-) Creating project structure    //each folder contaning __init__.py file
+    src folder    
+            components folder (further contaning files)
+            pipeline folder    (further contaning files)
+            logger.py     
+            exception.py
+            utils.py  // For common functions used throughout the application, such as database connections or saving models.
