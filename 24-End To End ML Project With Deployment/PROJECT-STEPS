@@ -39,3 +39,9 @@ This ensures all installed packages are contained within the project, making it 
             logger.py     
             exception.py
             utils.py  // For common functions used throughout the application, such as database connections or saving models.
+
+12-) Setup logger.py and exception.py file and test the files
+
+13-) Data ingestion.py
+
+
